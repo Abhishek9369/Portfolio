@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Social App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Mini Social Media</h1>
+
+    <div class="post-creator">
+      <textarea id="postText" placeholder="What's on your mind?"></textarea>
+      <input type="file" id="postImage" accept="image/*">
+      <div id="imagePreview" class="image-preview"></div>
+      <button onclick="createPost()">Post</button>
+    </div>
+
+    <div id="feed" class="feed"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
